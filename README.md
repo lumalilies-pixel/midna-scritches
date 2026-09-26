@@ -1,0 +1,1 @@
+Click Code->Download ZIP. Use Gamecube File Tools to import your ISO, then click Add/Replace Files From Folder and select the midna-scritches-patch folder (the one with "files" and"sys" in it). Then export the new ISO and get scritches.
