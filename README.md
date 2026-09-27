@@ -8,7 +8,7 @@ Those idle animations aren't used in any cutscenes or dialogue scenes (unlike ya
 
 Midna still has her other idles (yawning, patting wolfies' back, etc) and she'll still do them 
 
-**2. Importantly, this patch modifies the the decompiled code to give Midna's current animation buffer about 250kb extra** . 
+**2. WARNING: this patch modifies the the decompiled code to give Midna's current animation buffer about 250kb extra** . 
 
 **The gamecube has extremely limited memory (only 24mb wth!), so that's a significant request and it's possible this will cause crashes in some areas of the game** **_._** Granted, we tested for about 3 hours just loading up different save files in the twilight, bosses, dungeons, and areas that seem memory intensive, and it hasn't crashed yet! Fingers crossed! But this isn't super safe. Dolphin has an option to increase the gamecube's memory beyond the original console, but you have to make changes to the code for this to actually get utilized and we haven't figured out how to do this yet. We'll release another patch if we do! 
 
