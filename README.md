@@ -6,7 +6,7 @@ X) this is an idle animation mod for midna you can add to your gamecube ISO for 
 
 You can see what the animation looks like [here](https://youtu.be/iH-9HokRIvs)
 
-# **What does the it do** 
+# **What does it do** 
 
 **1. It replaces 2 of Midna's idle animations** : the one where she rotates how she's sitting and looks backwards to the player (like what's going on?? press some buttons!) and the one where she stands on wolfie and gazes around like she's getting the lay of the land. 
 
