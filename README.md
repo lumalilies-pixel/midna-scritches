@@ -16,8 +16,6 @@ Keep a copy of your original ISO!
 
 ## **3. It modifies wolfies' (wolflink's) idle behavior so that she won't yawn, stretch or sit while Midna is doing scritches.** 
 
-In the first clip of the video if you watch closely, you'll see wolfie's legs shift like he's about to do a yawn, but then she'll shift back because there's a check in the code that sees Midna is doing scritches. 
-
 He'll still yawn/sit any other time, but we needed to make this change so wolfie wouldn't interrupt the scritches animation as it's kind of long. 
 
 If wolfie starts yawning/stretching first, it's possible Midna will start the scritches animation before she's finished. This happens rarely, but it will result in midna doing her scritches floating above linklink's head for a few seconds, which is a little funky but not super disturbing. 
