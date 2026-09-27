@@ -46,31 +46,6 @@ Then click _Add/Replace files from folder_ and pick my little folder (midna_scri
 
 3. It's too beautiful haha kidding no such thing gorgeous wink 
 
-# **How we made it** 
-
-<u>This video</u> describes a process & plugins for importing gamecube bck animations into blender, and exporting them as maya animations, and then repackaging them for gamecube 
-
-Animating with the imported rig is **difficult** . 
-
-The video says that using full IK with targets is impossible, but you can actually add some IK targets that work reasonably well and remove them as long as you bake the animation (you can reach out to me if you're interested). 
-
-Our advice for animating: picture it in your head but also run some of the motions in your body & see how they feel in your muscles and use that as reference too! You can film yourself doing the action, but do it to understand what's happening in your body. We keyframe the landing poses for the limbs that are driving motion, spread out joint keyframes for overlapping motion, try to add bounce back & follow-through where it feels right, go into the motion curves to fine tune. If you can't make an action work physically it might just mean it doesn't feel right for the moment! 
-
-It's ok to try out alternatives or go back to thinking about like how midna's feeling when she does it and what she wants. 
-
-Baking the animation results in files significantly larger than the original animations which will cause memory problems in the vanilla game, so this is really only feasible if you modify a decompiled code base to increase buffer sizes (which is risky). 
-
-Once you have an animation, the open source j3d-animation-tool lets you re-save it in a gamecube bck format. It also lets you make texture animations, which is just specifying image indexes at different frames (e.g. "1" means eyes wide open, "4" means eyes closed). You can use Gamecube File Tools to replace the original files (the video walks through it). 
-
-Without changing the code, importing most animation will cause (kind of disturbing) weird visual effects (i hated this the most) because your animations will get loaded into buffers that are too small and overflow into other memory locations (like actors' rigs & stuff). The only way to avoid this realistically is to make tiny animations (no fun) or modify the decompiled code and rebuild new binaries. 
-
-The Zelda RET decompiled the binaries for Twilight Princess into C++ code (an insane amount of work). 
-
-Midna's d_a_midna.cpp file has a line (368) that sets the buffer size to 0x3800 (that's hexidecimal for 14,000, so roughly 14kb). you can increase this, but go too large and you'll see crashes happen consistently, go less large but still to large and you'll see crashes happen infrequently. any change to this number is risky for the game being stable. 
-
-The decomp page & its' discord server have lovely instructions on how to rebuild the game and <u>a script</u> for packaging it back into a playable format for testing. You need to provide your own ISO, but it can be a modded ISO with your new assets added. 
-
-Then you just keep fucking with it till it works! It takes a long time and a lot of patience 
 
 # **There ya go!** 
 
