@@ -1,6 +1,6 @@
 Click Code->Download ZIP. Use Gamecube File Tools to import your ISO, then click Add/Replace Files From Folder and select the midna-scritches-patch folder (the one with "files" and"sys" in it). Then export the new ISO and get scritches.
 
-# ** What is it **
+# **What is it**
 
 X) this is an idle animation mod for midna you can add to your gamecube ISO for Twilight Princess! We worked Many hours on it, it was made to be enjoyed by ourselves and anyone who finds it beautiful, so if that's you, please Enjoy this hon, i mean that with all my heart, ok? alright sweetheart let gets you good to go
 
