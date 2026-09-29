@@ -1,6 +1,12 @@
 # **UPDATE:** Midna's scritches are memory-safe now!
 
-You can get your scritches without worrying about the game crashing! There's a setting you need to change in dolphin so read the quick instructions for installing bellow.
+You can get your scritches without worrying about the game crashing! There's a setting you need to change in dolphin so read the quick instructions for installing below.
+
+# **What is the mod?**
+
+X) this is an idle animation mod for midna you can add to your gamecube ISO for Twilight Princess! We worked Many hours on it, it was made to be enjoyed by ourselves and anyone who finds it beautiful, so if that's you, please Enjoy this hon, i mean that with all my heart, ok? alright sweetheart let gets you good to go
+
+You can see what the animation looks like [here](https://youtu.be/iH-9HokRIvs)
 
 # **How do install it?** 
 
@@ -22,11 +28,6 @@ It can be the Linkle modded iso, that's what we used (credit to the creators, it
 
 Then click _Add/Replace files from folder_ and pick my little folder ("midna_scritches_patch", it should have "files" and "sys" folders in it). Note that this _won't_ override your original ISO. When you're done, click _Export GCM_ . This will let you save a new copy of the ISO with my little scritches anim in it! Boot that baby up and Receive <3. 
 
-# **What is the mod?**
-
-X) this is an idle animation mod for midna you can add to your gamecube ISO for Twilight Princess! We worked Many hours on it, it was made to be enjoyed by ourselves and anyone who finds it beautiful, so if that's you, please Enjoy this hon, i mean that with all my heart, ok? alright sweetheart let gets you good to go
-
-You can see what the animation looks like [here](https://youtu.be/iH-9HokRIvs)
 
 # **What does it do to the game?** 
 
