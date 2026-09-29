@@ -45,7 +45,7 @@ The animation is significantly larger than Midna's other animations partially be
 
 Reserving additional memory beyond the US gamecube's original resources isn't possible without removing the region lock, so that's included as well.
 
-## **3. It modifies wolfies' (wolflink's) idle behavior so that she won't yawn, stretch or sit while Midna is doing scritches.** 
+**3. It modifies wolfies' (wolflink's) idle behavior so that she won't yawn, stretch or sit while Midna is doing scritches.** 
 
 He'll still yawn/sit any other time, but we needed to make this change so wolfie wouldn't interrupt the scritches animation as it's kind of long. 
 
