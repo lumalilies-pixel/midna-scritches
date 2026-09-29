@@ -60,8 +60,10 @@ If wolfie starts yawning/stretching first, it's possible Midna will start the sc
 
 2. The orignal animators did the idle animation design beautifully, each one speaks to a different part of who Midna is. But they follow this rule of keeping Midna mostly centered on wolfies' back, so if you cancel the animation, it won't look jarring. I broke that rule! (but I did it for love!) If you cancel the anmiation in some spots, she'll kind of quickly float back to the base position which breaks immersion a little. 
 
-3. It's too beautiful haha kidding no such thing gorgeous wink 
+3. It's too beautiful haha kidding no such thing gorgeous wink
 
+# **Acknowledgments **
+This mod would not have been possible without the wonderful folks from [the Zelda reverse engineering team](https://github.com/zeldaret/tp/tree/main). We were going to give up on making this until we found all of their amazing resources & we got so much patient help from the lovely contributors in their discord server (link on their github page). I seriously get emotional thinking about how much work they've put into making mods like this possible, so so grateful to be in a time where these resources are available. We encourage you to try making a change and ask for help when you get stuck!
 
 # **There ya go!** 
 
