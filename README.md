@@ -43,7 +43,7 @@ Midna still has her other idles (yawning, patting wolfies' back, etc) and she'll
 
 The animation is significantly larger than Midna's other animations partially because of how it gets exported & also it's kind of long. This means we had to increase all the buffers that store Midna animations in the decompiled code so they won't overflow when they try to store & play our custom one. Overall, the patch causes the game to reserve about 1MB more memory for itself, so you'll need to play this with additional emulated memory turned on (4MB extra or 28MB total for MEM1 is what worked for us, so we'll recommend that).
 
-Reserving additional memory beyond the US gamecube's original resources isn't possible without removing the region lock, so that's included as well.
+Reserving additional memory beyond the US gamecube's original resources isn't possible without removing the game's region lock, so that's included as well (only affects the modded ISO and no other games)
 
 **3. It modifies wolfies' (wolflink's) idle behavior so that she won't yawn, stretch or sit while Midna is doing scritches.** 
 
