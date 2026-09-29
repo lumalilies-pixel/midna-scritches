@@ -1,4 +1,4 @@
-# **UPDATE** Midna's scritches are memory-safe now!
+# **UPDATE:** Midna's scritches are memory-safe now!
 
 You can get your scritches without worrying about the game crashing! There's a setting you need to change in dolphin so read the quick instructions for installing bellow.
 
@@ -38,11 +38,11 @@ Those idle animations aren't used in any cutscenes or dialogue scenes (unlike ya
 
 Midna still has her other idles (yawning, patting wolfies' back, etc) and she'll still do them 
 
-**2. WARNING: this patch modifies the the decompiled code to give Midna's current animation buffer about 250kb extra** . 
+**2. It removes the region lock and allows you to use additional emulated memory on Dolphin, and it increases the memory available to the game so the animation can be stored and run safely**
 
-**The gamecube has extremely limited memory (only 24mb wth!), so that's a significant request and it's possible this will cause crashes in some areas of the game** **_._** Granted, we tested for about 3 hours just loading up different save files in the twilight, bosses, dungeons, and areas that seem memory intensive, and it hasn't crashed yet! Fingers crossed! But this isn't super safe. Dolphin has an option to increase the gamecube's memory beyond the original console, but you have to make changes to the code for this to actually get utilized and we haven't figured out how to do this yet. We'll release another patch if we do! 
+The animation is significantly larger than Midna's other animations partially because of how it gets exported & also it's kind of long. This means we had to increase all the buffers that store Midna animations in the decompiled code so they won't overflow when they try to store & play our custom one. Overall, the patch causes the game to reserve about 1MB more memory for itself, so you'll need to play this with additional emulated memory turned on (4MB extra or 28MB total for MEM1 is what worked for us, so we'll recommend that).
 
-Keep a copy of your original ISO! 
+Reserving additional memory beyond the US gamecube's original resources isn't possible without removing the region lock, so that's included as well.
 
 ## **3. It modifies wolfies' (wolflink's) idle behavior so that she won't yawn, stretch or sit while Midna is doing scritches.** 
 
