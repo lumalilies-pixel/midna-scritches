@@ -62,7 +62,7 @@ If wolfie starts yawning/stretching first, it's possible Midna will start the sc
 
 3. It's too beautiful haha kidding no such thing gorgeous wink
 
-# **Acknowledgments **
+# **Acknowledgments**
 This mod would not have been possible without the wonderful folks from [the Zelda reverse engineering team](https://github.com/zeldaret/tp/tree/main). We were going to give up on making this until we found all of their amazing resources & we got so much patient help from the lovely contributors in their discord server (link on their github page). I seriously get emotional thinking about how much work they've put into making mods like this possible, so so grateful to be in a time where these resources are available. We encourage you to try making a change and ask for help when you get stuck!
 
 # **There ya go!** 
