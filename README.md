@@ -15,7 +15,7 @@ Well buckle up buttercup and I'll tell you!
 **1. Dolphin Memory settings**
 First open up Dolphin, go to Config, Advanced, and then check "Enable Emulated Memory Size Override." Then bump the first (MEM1) slider up to **28MB** specifically. Any less or more and the game will probably crash.
 
-![increasing the MEM1 slider to 28MB as described above](https://postimg.cc/MMB2t98g)
+![increasing the MEM1 slider to 28MB as described above](https://i.postimg.cc/1tCmmd7R/emumemory.png)
 
 *Turn this off before you emulate other games as it can mess em up!*
 
